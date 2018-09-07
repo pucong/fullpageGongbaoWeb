@@ -1,38 +1,130 @@
+
 footer {
     width: 100%;
-    height: 22.6rem;
-    color: #ffffff;
-    font-size: 14px;
+    height: 30.6rem;
     background: #333333;
     font-family: 'PingFangSC-Regular','Microsoft Yahei';
-    padding-top: 3.5rem;
+}
+.footerCenter span i {
+    width: 0.5rem;
+    position: absolute;
+    top: 0.34rem;
+    left: 0;
+    margin: 0;
 }
 
-footer span {
+.activeUnderLine {
     display: block;
-    height: 0.36rem;
-    border-bottom: 0.02rem solid #979797;
-    font-size: 0.16rem;
-    line-height: 0.24rem;
-    margin-bottom: 0.2rem;
+    height: 0.1rem;
+    background: #369ff7;
 }
 
-.contactService{
-    padding-left: 2rem;
+.footerCenterTop {
+    width: 90rem;
+    height: 25rem;
+    margin: 0 auto;
 }
-.footerCenter{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.footerCenterBottom {
+    width: 60rem;
+    height: 4.5rem;
+    margin: 0 auto;
+    color: #c4c4c4;
     text-align: center;
+    line-height: 4.5rem;
+    font-size: 1.35rem;
+}
+
+.contactService,
+.cooperation,
+.webNav,
+.attention {
+    float: left;
+    margin-right: 1.45rem;
+    margin-top: 5.5rem;
+}
+.cooperation {
+    width: 34.62rem;
+}
+.cooperation p{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.attention{
+    margin-right: 0;
+}
+.footerCenter span {
+    display: block;
+    height: 2.36rem;
+    border-bottom: 0.18rem solid #979797;
+    font-size: 2.4rem;
+    color: #ffffff;
+    line-height: 1.24rem;
+    position: relative;
+    margin-bottom: 2.2rem;
+}
+
+.footerCenter span i {
+    width: 7.5rem;
+    position: absolute;
+    top: 2.32rem;
+    left: 0;
+    margin: 0;
+}
+
+.footerCenter p {
+    display: block;
+    width: 100%;
+    line-height: 2.4rem;
+    color: #c4c4c4;
+    margin: 0.05rem 0;
+    font-size: 1.5rem;
+}
+
+.contactService h2 {
+    margin: 1.2rem 0;
+    height: 0.24rem;
+    font-size: 2.2rem;
+    line-height: 1.24rem;
+    color: #369ff7;
+}
+
+.contactService h2>img {
+    display: block;
+    float: left;
+    width: 2.24rem;
+    height: 2.24rem;
+    margin-right: 1.1rem;
+}
+.webNav{
+    width: 10rem;
+}
+.webNav a {
+    color: #c4c4c4;
+}
+
+.webNav a:hover {
+    color: #ffffff;
+}
+
+.rim {
+    width: 15.3rem;
+    height: 15.3rem;
+    background: url('./../images/group3x.png') no-repeat;
+    background-size: 14.3rem 14.3rem;
+}
+
+.rim>img {
+    display: block;
+    width: 12.16rem;
+    height: 12.16rem;
+    float: left;
+    margin: 1.07rem;
 }
 
 .underLineMax {
     display: block;
     width: 100%;
-    height: 0.2rem;
+    height: 0.02rem;
     background: #979797;
-}
-footer p{
-    line-height: 1.24rem;
-    font-size: 0.5rem;
 }
