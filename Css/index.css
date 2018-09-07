@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    height: 30%;
+    color: #ffffff;
+    font-size: 14px;
+    background: #333333;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+}
+
+footer span {
+    display: block;
+    height: 0.36rem;
+    border-bottom: 0.02rem solid #979797;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+    margin-bottom: 0.2rem;
+}
+
+.contactService{
+    padding-top: 20px;
+}
+.footerCenter{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.underLineMax {
+    display: block;
+    width: 100%;
+    height: 0.02rem;
+    background: #979797;
+}

@@ -16,12 +16,13 @@
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <link rel="stylesheet" href="Css/jquery.fullpage.css">
+<link rel="stylesheet" href="Css/index.css">
 <style>
 	body {
 		font-family: 'Quicksand', sans-serif;
 	}
 	.section {
-		text-align: center;
+		/*text-align: center;*/
 		font: 50px "Microsoft Yahei";
 	}
 	.logoClass{
@@ -97,15 +98,58 @@
 	</div>
     <!--第四页 开始-->
 	<div class="section">
-		<h3>第四屏</h3>
-		<p>这是最后一屏</p>
+        <div class="jumbotron" style="top: 38px;height: 70%;position: relative;">
+            <h1>Hello, world!</h1>
+            <p>...</p>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-3">
+                    <div class="contactService">
+                        <span>联系客服<i class="activeUnderLine"></i></span>
+                        <p>客服热线：400-800-5100 (工作日：8:30-17:30)</p>
+                        <p>客服QQ：3155107634 (工作日：8:30-17:30)</p>
+                        <p>客服邮箱：service@cngongbao.com</p>
+                        <h2><img src="./images/shape.png" alt="">400-800-5100</h2>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="cooperation">
+                        <span>商务合作<i class="activeUnderLine"></i></span>
+                        <p>商务合作邮箱：business@cngongbao.com</p>
+                        <p>公司地址: 浙江省宁波市鄞州区保险科技产业园A座19层</p>
+                        <p>运营中心: 杭州市滨江区新联路625号和仁科技大厦 12层</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="webNav">
+                        <span>网站导航<i class="activeUnderLine"></i></span>
+                        <p><a href="aboutUs.html">关于工保</a></p>
+                        <p><a href="aboutUs.html?jump=pl">信息披露</a></p>
+                        <p><a href="helpCenter.html">帮助中心</a></p>
+                        <p><a href="aboutUs.html?jump=hz">商务合作</a></p>
+                        <p><a href="webMap.html">网站地图</a></p>
+                    </div>
+                    <div class="attention">
+                        <span style="width:1.3rem;">关注我们<i class="activeUnderLine"></i></span>
+                        <div class="rim"><img src="./images/group.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <i class="underLineMax"></i>
+                <div class="footerCenter">
+                    <div class="footerCenterBottom">沪ICP备*******号 CopyRight 工保网 All Rights Reserved 绵阳工保建筑工程技术有限公司 互联网保险信息披露链接</div>
+                </div>
+            </div>
+        </footer>
 	</div>
 </div>
 
 
-<a href="http://www.dowebok.com/" style="display: none;">dowebok</a>
-<a href="http://www.dowebok.com/77.html" style="display: none;">jQuery全屏滚动插件fullPage.js</a>
-<script src="Scripts/h.js"></script>
+<!--<script src="Scripts/h.js"></script>-->
 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
 <script src="Scripts/jquery.min.js"></script>
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
@@ -115,7 +159,7 @@
 $(function(){
 	$('#dowebok').fullpage({
 		sectionsColor: ['white', 'white', '#efefef', 'white'],
-		'navigation': true,
+		'navigation': true
 	});
 });
 </script>
