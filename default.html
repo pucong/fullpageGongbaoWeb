@@ -1,59 +1,59 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-<title>fullPage.js — 项目导航演示_dowebok</title>
-<!-- Bootstrap -->
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>fullPage.js — 项目导航演示_dowebok</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
-<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
-<!--[if lt IE 9]>
-  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<link rel="stylesheet" href="Css/jquery.fullpage.css">
-<link rel="stylesheet" href="Css/index.css">
-<style>
-	body {
-		font-family: 'Quicksand', sans-serif;
-	}
-	.section {
-		/*text-align: center;*/
-		font: 50px "Microsoft Yahei";
-	}
-	.logoClass{
-		line-height: 42px;
-	}
-    .pc_header .navbar-nav{
-        float: right;
-    }
-    .cover {
-        width: 780px;
-        height: 780px;
-        position: relative;
-    }
-    .cover:after {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        box-shadow:0 0 50px 30px #ffffff inset;
-    }
-    .cover img{
-        width: 780px;
-        height: 780px;
-        display: block;
-        margin-bottom: 20px;
-    }
-</style>
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="Css/jquery.fullpage.css">
+    <link rel="stylesheet" href="Css/index.css">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+        }
+        .section {
+            /*text-align: center;*/
+            font: 50px "Microsoft Yahei";
+        }
+        .logoClass{
+            line-height: 42px;
+        }
+        .pc_header .navbar-nav{
+            float: right;
+        }
+        .cover {
+            width: 780px;
+            height: 780px;
+            position: relative;
+        }
+        .cover:after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            box-shadow:0 0 50px 30px #ffffff inset;
+        }
+        .cover img{
+            width: 780px;
+            height: 780px;
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
-<body style="overflow-x: hidden;overflow-y: auto;">
+<body style="overflow-x: hidden;overflow-y: auto;height: 300rem;">
 <!-- 头部菜单 -->
 <nav class="navbar navbar-default navbar-fixed-top pc_header">
     <div class="container">
@@ -81,72 +81,61 @@
 
 <div id="dowebok">
     <!--第一页 开始-->
-	<div class="section" style="background-image: url('./images/bg.jpg');">
+    <div class="section" style="background-image: url('./images/bg.jpg');">
         <h3>第1屏</h3>
         <p>请查看右边的圆圈</p>
-	</div>
+    </div>
     <!--第二页 开始-->
-	<div class="section">
+    <div class="section">
         <div class="cover">
             <img src="./images/bg3.jpg" alt="" style="position: relative;">
         </div>
-	</div>
+    </div>
     <!--第三页 开始-->
-	<div class="section">
-		<h3>第三屏</h3>
-		<p>圆圈还可以设置位置，颜色，加上 tip，点击可以控制</p>
-	</div>
+    <div class="section">
+        <h3>第三屏</h3>
+        <p>圆圈还可以设置位置，颜色，加上 tip，点击可以控制</p>
+    </div>
     <!--第四页 开始-->
-	<div class="section">
-        <div style="top: 3px;height: 60%;position: relative;background-color: #2b669a;">
+    <div class="section">
+        <div style="height: 61%;position: relative;background-color: #2aabd2;">
             <h1>Hello, world!</h1>
             <p>...</p>
         </div>
-        <div class="row footer" style="top: 3px;position: relative;margin: 0px;">
-            <div class="col-md-12" style="top: 36px;">
-                <div class="footerCenter" style="margin-bottom: 36px;">
-                    <div class="row" style="top: 3px;position: relative;margin: 10px 0px 0px 0px;">
-                        <div class="col-xs-12 col-sm-12 col-md-2"></div>
-                        <div class="col-xs-6 col-sm-6 col-md-3">
-                            <div class="contactService">
-                                <span>联系客服<i class="underLine activeUnderLine"></i></span>
-                                <p>客服热线：400-800-5100 (工作日：8:30-17:30)</p>
-                                <p>客服QQ：3155107634 (工作日：8:30-17:30)</p>
-                                <p>客服邮箱：service@cngongbao.com</p>
-                                <h2><img src="./images/shape.png" alt="">400-800-5100</h2>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-3">
-                            <div class="cooperation">
-                                <span>商务合作<i class="underLine activeUnderLine"></i></span>
-                                <p>商务合作邮箱：******@qq.com</p>
-                                <p>公司地址: 绵阳市涪城区滨河北路东段136号海天世纪银座1单元1103</p>
-                                <p>运营中心: 绵阳市涪城区滨河北路东段136号海天世纪银座1单元1103</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3">
-                            <div class="webNav">
-                                <span style="width:10.3rem;">网站导航<i class="underLine activeUnderLine"></i></span>
-                                <p><a href="#">关于工保</a></p>
-                                <p><a href="#">信息披露</a></p>
-                                <p><a href="#">帮助中心</a></p>
-                                <p><a href="#">商务合作</a></p>
-                                <p><a href="#">网站地图</a></p>
-                            </div>
-                            <div class="attention">
-                                <span style="width:13.3rem;">关注我们<i class="underLine activeUnderLine"></i></span>
-                                <div class="rim"><img src="./images/group.png" alt=""></div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-1"></div>
+        <footer id="page_footer">
+            <div class="footerCenter">
+                <div class="footerCenterTop">
+                    <div class="contactService">
+                        <span>联系客服<i class="underLine activeUnderLine"></i></span>
+                        <p>客服热线：400-800-5100 (工作日：8:30-17:30)</p>
+                        <p>客服QQ：3155107634 (工作日：8:30-17:30)</p>
+                        <p>客服邮箱：service@cngongbao.com</p>
+                        <h2><img src="./images/shape.png" alt="">400-800-5100</h2>
+                    </div>
+                    <div class="cooperation">
+                        <span>商务合作<i class="underLine activeUnderLine"></i></span>
+                        <p>商务合作邮箱：******@qq.com</p>
+                        <p>公司地址: 绵阳市涪城区滨河北路东段136号海天世纪银座1单元1103</p>
+                        <p>运营中心: 绵阳市涪城区滨河北路东段136号海天世纪银座1单元1103</p>
+                    </div>
+                    <div class="webNav">
+                        <span style="width:10.3rem;">网站导航<i class="underLine activeUnderLine"></i></span>
+                        <p><a href="#">关于工保</a></p>
+                        <p><a href="#">信息披露</a></p>
+                        <p><a href="#">帮助中心</a></p>
+                        <p><a href="#">商务合作</a></p>
+                        <p><a href="#">网站地图</a></p>
+                    </div>
+                    <div class="attention">
+                        <span style="width:13.3rem;">关注我们<i class="underLine activeUnderLine"></i></span>
+                        <div class="rim"><img src="./images/group.png" alt=""></div>
                     </div>
                 </div>
                 <i class="underLineMax"></i>
                 <div class="footerCenterBottom">沪ICP备********号 CopyRight 工保网 All Rights Reserved 绵阳工保建筑工程技术有限公司 互联网保险信息披露链接</div>
             </div>
-        </div>
-
-	</div>
+        </footer>
+    </div>
 </div>
 
 
@@ -157,12 +146,12 @@
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="Scripts/jquery.fullpage.min.js"></script>
 <script>
-$(function(){
-	$('#dowebok').fullpage({
-		sectionsColor: ['white', 'white', '#efefef', 'white'],
-		'navigation': true
-	});
-});
+    $(function(){
+        $('#dowebok').fullpage({
+            sectionsColor: ['white', 'white', '#efefef', 'white'],
+            'navigation': true
+        });
+    });
 </script>
 </body>
 </html>
