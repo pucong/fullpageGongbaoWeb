@@ -1,7 +1,7 @@
 
-footer {
+.footer {
     width: 100%;
-    height: 30.6rem;
+    height: 40%;
     background: #333333;
     font-family: 'PingFangSC-Regular','Microsoft Yahei';
 }
@@ -20,9 +20,10 @@ footer {
 }
 
 .footerCenterTop {
-    width: 90rem;
+    width: 95rem;
     height: 25rem;
     margin: 0 auto;
+    padding-top: 25px;
 }
 
 .footerCenterBottom {
@@ -41,7 +42,6 @@ footer {
 .attention {
     float: left;
     margin-right: 1.45rem;
-    margin-top: 5.5rem;
 }
 .cooperation {
     width: 34.62rem;
@@ -125,6 +125,6 @@ footer {
 .underLineMax {
     display: block;
     width: 100%;
-    height: 0.02rem;
+    height: 0.2rem;
     background: #979797;
 }
